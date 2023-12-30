@@ -19,6 +19,7 @@ const contacts = [
     likes: ["Intriguing Cases", "Violin"],
   },
   {
+    
     firstName: "Kristian",
     lastName: "Vos",
     number: "unknown",
