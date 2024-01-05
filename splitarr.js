@@ -1,13 +1,30 @@
+import mongoose from 'mongooose';
 
-function chunkArrayInGroups(arr, size) {
-    const newarr=[];
-    const arrlength= arr.length;
-    
-    if (arrlength%size===0){
-for (let i=0;i<arr;i++){
-    newarr.push(arr.slice)  
-}
-    }
-  }
-  
-  console.log(chunkArrayInGroups(["a", "b", "c", "d"], 2));
+const hospitalSchema = new mongoose.Schema({
+  name: {
+    type: String,
+    required: true,
+  },
+  addressLine1: {
+    type: String,
+    required: true,
+  },
+  addressLine2: {
+    type: String,
+    required: true,
+  },
+  city: {
+    type: String,
+    required: true,
+  },
+  pincode: {
+    type: String,
+    required: true,
+  },
+  specializedIn: {
+    type: String,
+    required: true,
+  },
+}, { timestamps: true });
+
+export const hospital = mongoose.model('Hospital', medicalRecordSchema);
