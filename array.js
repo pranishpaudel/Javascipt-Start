@@ -8,6 +8,8 @@ function copyMachine(arr, num) {
       num--;
     }
     return newArr;
-  }
+
+
+    //added some function
   
   console.log(copyMachine([true, false, true], 3));
