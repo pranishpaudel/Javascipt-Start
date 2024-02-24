@@ -10,6 +10,6 @@ function randomRange(myMin, myMax) {
   }
 
 
-
+//now
 
 console.log(randomRange(14,15))
