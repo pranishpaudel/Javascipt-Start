@@ -9,7 +9,7 @@ function copyMachine(arr, num) {
     }
     return newArr;
 
-//now
+//nowb
     //added some function
   
   console.log(copyMachine([true, false, true], 3));
